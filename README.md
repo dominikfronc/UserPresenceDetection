@@ -1,4 +1,4 @@
-###UserPresenceDetection
+### UserPresenceDetection
 
-#####motion_detecion
+##### motion_detecion
 JavaScript application for motion detection
