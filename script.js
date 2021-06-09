@@ -177,7 +177,6 @@ const constraints = {
   video.addEventListener('playing', () => {
     setInterval( async () => {
       var attributes = await faceapi.detectAllFaces(video, new faceapi.TinyFaceDetectorOptions()).withFaceLandmarks().withFaceExpressions();
-      console.log(attributes);
       if(attributes.length == 0){
         updateFaceChange(false);
       }
